@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/iconsbg"
+    android:weightSum="4"
+    android:orientation="vertical"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+
+        >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/fblogo"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_margin="5dp"
+            android:text="Facebook"
+            android:textSize="10dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/instalogo"
+            android:layout_margin="5dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Instagram"
+            android:textSize="10dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            />
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/snapchatlogo"
+            android:layout_margin="5dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Snapchat"
+            android:textSize="12dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            />
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/twitterlogo"
+            android:layout_margin="5dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Twitter"
+            android:textSize="12dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+
+        >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/pinterestlogo"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_margin="5dp"
+            android:text="Pinterest"
+            android:textSize="12dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/tiktoklogo"
+            android:layout_margin="5dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="TikTok"
+            android:textSize="12dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            />
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/telegramlogo"
+            android:layout_margin="5dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Telegram"
+            android:textSize="12dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            />
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/playstorelogo"
+            android:layout_margin="5dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="PlayStore"
+            android:textSize="09dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/linelogo"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_margin="5dp"
+            android:text="LINE"
+            android:textSize="12dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/zoomlogo"
+            android:layout_margin="5dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Zoom"
+            android:textSize="12dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            />
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/skypelogo"
+            android:layout_margin="5dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Skype"
+            android:textSize="12dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            />
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/wordlogo"
+            android:layout_margin="5dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Word"
+            android:textSize="12dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/gmaillogo"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_margin="5dp"
+            android:text="Gmail"
+            android:textSize="12dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/googlelogo"
+            android:layout_margin="5dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Google"
+            android:textSize="12dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            />
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/drivelogo"
+            android:layout_margin="5dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Drive"
+            android:textSize="12dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            />
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/mapslogo"
+            android:layout_margin="5dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Maps"
+            android:textSize="12dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ytlogo"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_margin="5dp"
+            android:text="YouTube"
+            android:textSize="12dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/gphotoslogo"
+            android:layout_margin="5dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Photos"
+            android:textSize="12dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            />
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/duologo"
+            android:layout_margin="5dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Duo"
+            android:textSize="12dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            />
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/calendarlogo"
+            android:layout_margin="5dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Calendar"
+            android:textSize="10dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="75dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/phonelogo"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_margin="5dp"
+            android:text="Phone"
+            android:textSize="12dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/messagelogo"
+            android:layout_margin="5dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Messaging"
+            android:textSize="12dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            />
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/chromelogo"
+            android:layout_margin="5dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Chrome"
+            android:textSize="12dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            />
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/cameralogo"
+            android:layout_margin="5dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Camera"
+            android:textSize="10dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
